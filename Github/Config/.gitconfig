@@ -1,0 +1,52 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[alias]
+	st = status
+	ci = commit
+	re = restore --staged
+	ph = push -u origin
+	llog = log --date=local
+	remadd = remote add origin
+	remset = remote set-url origin 
+
+[user]
+	name = Brent Williams
+	email = brent.williams@ddincmail.org
+
+[core]
+	excludesFile = ~/.gitignore
+
+[color]
+    branch = true
+    diff = true
+    grep = true
+    status = true
+	ui = true
+
+# Color - normal, black, red, green, yellow, blue, magenta, cyan, white
+# Attributes - bold, dim, ul, blink, reverse
+[color "branch"]
+    current = black blink white ul
+    local = black blink yellow ul
+    remote = black blink blue ul
+
+[color "diff"]
+    commit = cyan ul
+    new = red ul
+    old = yellow ul
+
+[color "grep"]
+    filename = normal reverse red
+    linenumber = red blink black
+
+[color "status"]
+    header = normal reverse
+    added = magenta
+    changed = red blink black  
+    branch = white reverse red
+    nobranch = red reverse white
+    untracked = black reverse red
+    unmerged = magenta
