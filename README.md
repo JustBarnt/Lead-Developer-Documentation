@@ -30,7 +30,16 @@ I typically follow an [Object-Oriented Programming](https://en.wikipedia.org/wik
 
 Whereas with [Functional Programming](https://en.wikipedia.org/wiki/Functional_programming) it is a polar opposite, code is not reusable- nor is the data used in functional programming muatble. I will use functional programming for quick turn-around demos, or small projects with tight deadlines.
 
-**There is no write or wrong model for programming, so don't confine yourself to trying to follow one model over the other. Each has is its own use and best case scenarios**
+> _There is no right or wrong paradigm to follow. I will create a table below that lists some of the pros/cons between the two._
+
+| Object-Oriented Programming | Pros | Cons |  Functional Programming | Pros | Cons |
+| --- | --- | --- |  --- | --- | --- |
+| Allows Parallel Developement | :heavy_check_mark: | :x: |  Logical | :heavy_check_mark: | :x: |
+| Modular Classes which are reusable | :heavy_check_mark: | :x: |  Debugging is easier | :heavy_check_mark: | :x: |
+| Coding base is easier to maintain and document | :heavy_check_mark: | :x: | Lazy evaluation | :heavy_check_mark: | :x: |
+| It can be inefficient | :x: | :heavy_check_mark: | Combining pure functions | :x: | :heavy_check_mark: |
+| It can be too scalable | :x: | :heavy_check_mark: | Recursion | :x: | :heavy_check_mark: |
+| It can cause duplication | :x: | :heavy_check_mark: | Mathematical terminology | :x: | :heavy_check_mark: |
 
 [^1]: I only reference two Paradigms for programming. There are several and there are 4 major programming paradigms that are usually followed. So far in my career in web you mostly see functional and OOP which is why I only mention these two.
 
