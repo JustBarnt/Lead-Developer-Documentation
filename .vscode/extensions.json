@@ -1,13 +1,14 @@
 {
 	"recommendations": [
-		"ExodiusStudios.comment-anchors",
+		"exodiusstudios.comment-anchors",
 		"geeebe.duplicate",
 		"dbaeumer.vscode-eslint",
 		"wix.vscode-import-cost",
-		"VisualStudioExptTeam.vscodeintellicode",
+		"visualstudioexptteam.vscodeintellicode",
 		"jabacchetta.javascript-snippets",
 		"christian-kohler.path-intellisense",
-		"WallabyJs.quokka-vscode",
-		"itsrennyman.snippets-photo-shoot"
+		"wallabyjs.quokka-vscode",
+		"itsrennyman.snippets-photo-shoot",
+		"shd101wyy.markdown-preview-enhanced"
 	]
 }
