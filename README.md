@@ -1,3 +1,4 @@
+<p align="center"><img src="./images/ddinc-logo-white.svg" style="width: 33vw"></p>
 # Lead Developer Documentation
 ---
 ###### The purpose of this documentation website is to help Designing Digitally in the transition of my leave from the company. I have been the Lead Developer for 3 years and in turn, I have consistently changed how I work and what I use. This document will contain all the information about my current workflow and what I use. 
@@ -18,7 +19,19 @@
 
 ---
 
-## Programming Style <a name="Programming"></a>
+## Programming Paradigm <a name="Programming"></a>
+
+**_I will briefly explain the programming paradigms[^1] I follow_**.
+
+**_I will not be explaining the differences between these two models that I use, but I will link resources for you to read as both paradigms are not something that can be summarized and still make sense._**
+
+I typically follow an [Object-Oriented Programming](https://en.wikipedia.org/wiki/Object-oriented_programming) methodology. Meaning a majority of the time my code uses reusable objects. This method is generally used for full-scale projects. 
+
+Whereas with [Functional Programming](https://en.wikipedia.org/wiki/Functional_programming) it is a polar opposite, code is not reusable- nor is the data used in functional programming muatble. I will use functional programming for quick turn-around demos, or small projects with tight deadlines.
+
+**There is no write or wrong model for programming, so don't confine yourself to trying to follow one model over the other. Each has is its own use and best case scenarios**
+
+[^1]: I only reference two Paradigms for programming. There are several and there are 4 major programming paradigms that are usually followed. So far in my career in web you mostly see functional and OOP which is why I only mention these two.
 
 ---
 
@@ -28,19 +41,19 @@
 
 
 ### Tools
-1. Git SCM (Source Code Management)
-2. Terminal (Windows 10 Command Line Application)
-3. ESLint
-4. Webpack (Module bundler)
-5. NPM (Node Package Manager)
+1. [Git SCM (Source Code Management)](https://git-scm.com/)
+2. [Terminal (Windows 10 Command Line Application)](https://www.microsoft.com/store/apps/9n0dx20hk701)
+3. [ESLint](https://eslint.org)
+4. [Webpack (Module bundler)](https://webpack.js.org/)
+5. [NPM (Node Package Manager)](https://www.npmjs.com/)
 
 ### Programs
-1. Visual Studio Code (Text Editor)
-2. Articulate Storyline (eLearning Authoring Tool)
+1. [Visual Studio Code (Text Editor)](https://code.visualstudio.com/)
+2. [Articulate Storyline (eLearning Authoring Tool)](https://articulate.com/360)
 
 ### Frameworks, APIs, libraries
-1. NodeJS (A Javascript Runtime Environment)
-2. ZimJS (Canvas Framework)
+1. [NodeJS (A Javascript Runtime Environment)](https://nodejs.org/en/)
+2. [ZimJS (Canvas Framework)](https://zimjs.com/)
 
 ---
 
@@ -57,7 +70,7 @@ He teaches several different subjects related to programming. But his [youtube](
 Devlin Peck is a popular Articulate Storyline developer, he has a [website](https://www.devlinpeck.com/tutorials) with several useful tutorials.
 
 ### Git SCM
-Git SCM is a command-line Source Code Management tool. I will go into more detail in the [Github README](./Github/Github-README.md) file. But I will list resources here I found useful for learning Git SCM quickly.
+Git SCM is a command-line Source Code Management tool. I will go into more detail in the [Github README](./Github/Github-README.md) file. But I will list resources here I found useful for learning Git SCM.
 
 1. [Git SCM Documentation](https://git-scm.com/docs)
 2. [Official Git Tutorial](https://git-scm.com/docs/gittutorial)
