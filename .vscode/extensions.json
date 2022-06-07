@@ -1,0 +1,13 @@
+{
+	"recommendations": [
+		"ExodiusStudios.comment-anchors",
+		"geeebe.duplicate",
+		"dbaeumer.vscode-eslint",
+		"wix.vscode-import-cost",
+		"VisualStudioExptTeam.vscodeintellicode",
+		"jabacchetta.javascript-snippets",
+		"christian-kohler.path-intellisense",
+		"WallabyJs.quokka-vscode",
+		"itsrennyman.snippets-photo-shoot"
+	]
+}

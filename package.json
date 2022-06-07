@@ -7,17 +7,6 @@
     "build": "webpack --config webpack.production.config.js",
     "dev": "webpack serve --config webpack.dev.config.js --hot"
   },
-  "extensionDependencies": [
-	  "ExodiusStudios.comment-anchors",
-	  "geeebe.duplicate",
-	  "dbaeumer.vscode-eslint",
-	  "wix.vscode-import-cost",
-	  "VisualStudioExptTeam.vscodeintellicode",
-	  "jabacchetta.javascript-snippets",
-	  "christian-kohler.path-intellisense",
-	  "WallabyJs.quokka-vscode",
-	  "itsrennyman.snippets-photo-shoot"
-  ],
   "eslintConfig": {
     "extends": "eslint:recommended",
     "env": {
