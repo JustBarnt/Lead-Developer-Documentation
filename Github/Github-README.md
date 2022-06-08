@@ -183,7 +183,7 @@ Outside of the alias' there are not many things you would really need to change 
 
 <!-- Start Additional Details Section -->
 ## <u>Additional Details<a name="details"></a></u>
-<details open>
+<details>
 <summary>More Information</summary>
 
 Last thing is `.gitignore` file, this file is something that you will want apart of every repo your make. It ignores files/folders you specify. You especially want to include this file if you are working with private keys or information to make sure it is not uploaded to GitHub.
