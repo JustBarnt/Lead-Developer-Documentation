@@ -8,10 +8,10 @@
 
 # Table of Contents
 
-###### Table of Contents includes the separate pages, Github, JavaScript, Storyline, and VSCode. But will also contain items in this document as well.
+###### Table of Contents includes the separate pages, GitHub, JavaScript, Storyline, and VSCode. But will also contain items in this document as well.
 
 1. [Programming Style](#Programming)
-2. [GitHub & Git SCM (Source Code Management)](./Github/Github-README.md)
+2. [GitHub & Git SCM (Source Code Management)](./GitHub/GitHub-README.md)
 3. [JavaScript](./JavaScript/JavaScript-README.md)
 4. [Articulate Storyline](./Storyline/Storyline-README.md)
 5. [Visual Studio Code](./Visual-Studio-Code/VSCode-README.md)
@@ -90,7 +90,7 @@ Whereas with [Functional Programming](https://en.wikipedia.org/wiki/Functional_p
 <details>
 <summary>More Information</summary>
 
-Coding Train is a website built by Programmer and Professor [Daniel Shiffman](https://github.com/Shiffman)
+Coding Train is a website built by Programmer and Professor [Daniel Shiffman](https://GitHub.com/Shiffman)
 	
 He teaches several different subjects related to programming. But his [youtube](https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw) channel offers some incredible tutorials ranging from absolute beginner-level introductions to building out functional projects.
 
@@ -127,7 +127,7 @@ E-Learning Heroes is the community built around Articulate Storyline. There are 
 <details>
 <summary>More Information</summary>
 
-Git SCM is a command-line Source Code Management tool. I will go into more detail in the [Github README](./Github/Github-README.md) file. But I will list resources here I found useful for learning Git SCM.
+Git SCM is a command-line Source Code Management tool. I will go into more detail in the [GitHub README](./GitHub/GitHub-README.md) file. But I will list resources here I found useful for learning Git SCM.
 
 1. [Git SCM Documentation](https://git-scm.com/docs)
 2. [Official Git Tutorial](https://git-scm.com/docs/gittutorial)
