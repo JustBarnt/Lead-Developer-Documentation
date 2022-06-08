@@ -1,4 +1,3 @@
-<link href="../style/styles.css" rel="stylesheet"></link>
 <p align="center"><img src="../images/ddinc-logo-white.svg" style="width: 33vw"></p>
 
 # Github & Git SCM (Source Code Management)
@@ -23,14 +22,13 @@
 
 [//]: # (Start Downloads Section)
 ## <u>Download <a name="download"></a></u>
-<details open>
+<details>
 
 <summary>More Information</summary>
+Download Git SCM and then proceed to the install section to get it installed properly if you do not know how to install Git SCM.
 
-<button class="btn">
-<a href="https://git-scm.com/download/win">To Download Git SCM</a>
-</button>
-<!-- [To download Git SCM](https://git-scm.com/download/win) {: .btn} -->
+<button class="btn" style="background: #0055"><a href="https://git-scm.com/download/win">Download Git SCM</a></button>
+
 </details>
 
 [//]: # (Start Install Section)
