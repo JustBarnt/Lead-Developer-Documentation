@@ -11,7 +11,7 @@
 ###### Table of Contents includes the separate pages, GitHub, JavaScript, Storyline, and VSCode. But will also contain items in this document as well.
 
 1. [Programming Style](#Programming)
-2. [GitHub & Git SCM <sup>Source Code Management</sup>](./Github/README.md)
+2. [GitHub & Git SCM](./Github/README.md)
 3. [JavaScript](./JavaScript/README.md)
 4. [Articulate Storyline](./Storyline/README.md)
 5. [Visual Studio Code](./Visual-Studio-Code/README.md)
