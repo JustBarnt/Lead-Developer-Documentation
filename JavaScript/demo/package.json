@@ -1,11 +1,11 @@
 {
-  "name": "lead-developer-documentation",
+  "name": "project",
   "version": "1.0.0",
-  "description": "Documentation for how I work. ",
   "main": "app.js",
+  "type": "module",
   "scripts": {
-    "build": "webpack --config webpack.production.config.js",
-    "dev": "webpack serve --config webpack.dev.config.js --hot"
+    "build": "cross-env ENV=production webpack --config webpack.config.mjs",
+    "dev": "cross-env ENV=dev webpack serve --config webpack.config.mjs --hot"
   },
   "eslintConfig": {
     "extends": "eslint:recommended",
@@ -71,7 +71,6 @@
       "no-console": "off",
       "no-empty-function": "error",
       "no-floating-decimal": "error",
-      "no-inline-comments": "error",
       "no-shadow": [
         "error",
         {
@@ -82,7 +81,7 @@
           ]
         }
       ],
-      "no-unused-vars": "warn",
+      "no-unused-vars": 0,
       "no-var": "warn",
       "no-lonely-if": "off",
       "no-undef": "off",
@@ -116,10 +115,27 @@
       "yoda": "warn"
     }
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://GitHub.com/DDincBrent/Lead-Developer-Documentation.git"
-  },
   "keywords": [],
-  "homepage": "https://GitHub.com/DDincBrent/Lead-Developer-Documentation#readme"
+  "license": "SEE LICENSE IN LICENSE.md",
+  "devDependencies": {
+    "@babel/core": "^7.18.5",
+    "@babel/plugin-proposal-class-properties": "^7.17.12",
+    "@babel/preset-env": "^7.18.2",
+    "babel-loader": "^8.2.5",
+    "copy-webpack-plugin": "^11.0.0",
+    "eslint": "^8.17.0",
+    "fs-extra": "^10.1.0",
+    "html-webpack-plugin": "^5.5.0",
+    "underscore": "^1.13.4",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.9.2"
+  },
+  "description": "",
+  "dependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.1",
+    "jsdom": "^19.0.0"
+  }
 }
