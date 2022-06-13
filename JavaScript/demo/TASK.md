@@ -22,4 +22,5 @@
   - [ ] Example
   - [ ] Basic Setup
 - [ ] Create example project.
+  - [ ] Create a User Snippet
   - [ ] Follow along to create a ZimJS Canvas project that does something I haven't figured out yet
