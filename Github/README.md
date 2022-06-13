@@ -130,6 +130,11 @@ git remote set-url origin https://github.com/Github/Reponame.git
 ```bash session
 git restore --staged
 ```
+- Undoing commit (spelling error, commited wrong file, etc.)
+``` bash session
+git reset --soft HEAD~1 # Keep files and stage all changes back automatically
+git reset --hard HEAD~1 # Completely destroys any changes and removes them from the local directory.
+```
 </details>
 
 
