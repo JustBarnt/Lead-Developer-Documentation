@@ -1,0 +1,136 @@
+{
+  "name": "Project",
+  "version": "1.0.0",
+  "description": "A simple follow along project for the Documentation",
+  "main": "app.js",
+  "scripts": {
+    "build": "webpack --config webpack.production.config.js",
+    "dev": "webpack serve --config webpack.dev.config.js --hot"
+  },
+  "eslintConfig": {
+    "extends": "eslint:recommended",
+    "env": {
+      "node": true,
+      "es6": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 2022,
+      "sourceType": "module"
+    },
+    "rules": {
+      "arrow-spacing": [
+        "warn",
+        {
+          "before": true,
+          "after": true
+        }
+      ],
+      "brace-style": [
+        "error",
+        "allman",
+        {
+          "allowSingleLine": true
+        }
+      ],
+      "comma-dangle": [
+        "error",
+        "always-multiline"
+      ],
+      "comma-spacing": [
+        "error",
+        {
+          "after": true
+        }
+      ],
+      "curly": [
+        "error",
+        "multi",
+        "consistent"
+      ],
+      "dot-location": [
+        "error",
+        "property"
+      ],
+      "handle-callback-err": "off",
+      "indent": [
+        "warn",
+        "tab"
+      ],
+      "max-nested-callbacks": [
+        "error",
+        {
+          "max": 4
+        }
+      ],
+      "max-statements-per-line": [
+        "error",
+        {
+          "max": 2
+        }
+      ],
+      "no-console": "off",
+      "no-empty-function": "error",
+      "no-floating-decimal": "error",
+      "no-inline-comments": "error",
+      "no-shadow": [
+        "error",
+        {
+          "allow": [
+            "err",
+            "resolve",
+            "reject"
+          ]
+        }
+      ],
+      "no-unused-vars": "warn",
+      "no-var": "warn",
+      "no-lonely-if": "off",
+      "no-undef": "off",
+      "object-curly-spacing": [
+        "error",
+        "always"
+      ],
+      "prefer-const": "warn",
+      "quotes": [
+        "error",
+        "single"
+      ],
+      "semi": "error",
+      "no-trailing-spaces": "off",
+      "space-before-blocks": [
+        "error",
+        "never"
+      ],
+      "space-before-function-paren": [
+        "error",
+        {
+          "anonymous": "never",
+          "named": "never",
+          "asyncArrow": "always"
+        }
+      ],
+      "space-in-parens": [
+        "error",
+        "never"
+      ],
+      "yoda": "warn"
+    }
+  },
+  "keywords": [],
+  "license": "SEE LICENSE IN LICENSE.md",
+  "dependencies": {
+    "zimjs": "^13.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/plugin-proposal-class-properties": "^7.16.7",
+    "@babel/preset-env": "^7.16.11",
+    "babel-loader": "^8.2.4",
+    "copy-webpack-plugin": "^10.2.4",
+    "eslint": "^8.13.0",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.71.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.8.1"
+  }
+}

@@ -1,0 +1,21 @@
+# **/logs - You can prepend a pattern with a double asterisk to match directories anywhere in the repository.
+
+# **/logs/debug.log - You can also use a double asterisk to match files based on their name and the name of their parent directory.
+
+# *.log - An asterisk is a wildcard that matches zero or more characters.
+
+# *.log 
+
+# !important.log - Prepending an exclamation mark to a pattern negates it. If a file matches a pattern, but also matches a negating pattern defined later in the file, it will not be ignored. ignored: [debug.log trace.log] not ignored: [ important.log logs/important.log ].
+
+# /debug.log - Prepending a slahs matches on files in the repository root. 
+
+# debug.log - By default, pattern matches file name in any directory.
+
+# logs - If you don't append a slash, the pattern will match both files and the contents of directories with that name. In the example matches on the left, both directories and files named logs are ignored
+
+# logs/ -Appending a slash indicates the pattern is a directory. The entire contents of any directory in the repository matching that name – including all of its files and subdirectories – will be ignored
+
+/node_modules/
+/dist/
+/dist-final/
