@@ -1,137 +1,47 @@
-<p align="center"><img src="./images/ddinc-logo-white.svg" style="width: 33vw"></p>
+<p align="center"><img src="../assets/ddinc-logo-white.svg" style="width: 33vw"></p>
 
-# Lead Developer Documentation
+# Visual Studio Code - Text Editor
 
-###### The purpose of this documentation website is to help Designing Digitally in the transition of my leave from the company. I have been the Lead Developer for 3 years and in turn, I have consistently changed how I work and what I use. This document will contain all the information about my current workflow and what I use. 
+Visual Studio Code is a text editor created by Microsoft.
+
+It is my preferred text editor as well as one of the most used text editors by most developers. 
+
+Do not get [Visual Studio Code](https://code.visualstudio.com/) confused with [Microsoft Visual Studio](https://visualstudio.microsoft.com/vs/), they are two different programs. Microsoft Visual Studio is an IDE (Integrated Development Environment) whereas Visual Studio Code is a Code Editor. I will include a quick TL;DR about the difference as well a link to the original article if you would like to read more.
+
+<details>
+	<summary>IDE VS Code Editor</summary>
+
+A code editor is an application to write code quickly without providing more advanced development tools. An IDE combines a code editor with built-in advanced development tools to make writing large-scale applications easier and more convenient.
+
+[Source](https://dev.to/vickilanger/eli5-what-is-ide-or-an-ide-hen)
+</details>
+
+Every project I have created for Designing Digitally that was not Storyline project, I used a code editor i.e. VS Code because the application was not large enough to do in an IDE. A good example of using an IDE to code is in Unity- Games/Applications built in Unity are large-scale therefore using an IDE to is necessary and incredibly easier. 
 
 ----
 
 # Table of Contents
 
-###### Table of Contents includes the separate pages, GitHub, JavaScript, Storyline, and VSCode. But will also contain items in this document as well.
-
-1. [Programming Style](#Programming)
-2. [GitHub & Git SCM (Source Code Management)](./GitHub/GitHub-README.md)
-3. [JavaScript](./JavaScript/JavaScript-README.md)
-4. [Articulate Storyline](./Storyline/Storyline-README.md)
-5. [Visual Studio Code](./Visual-Studio-Code/VSCode-README.md)
-6. [Technologies](#Technologies)
-7. [Resources](#Resources)
+1. [Download & Install](#intro)
+2. [Setup & Basic Extensions](#setup)
+3. [Keybindings & Command Pallette](#keybindings)
+4. [Useful Views](#views)
+5. [Recommended Extensions](#extensions)
+6. [User Snippets](#snippets)
+7. [Workspace vs. Program Settings](#workspace)
 
 ---
 
-## Programming Paradigm <a name="Programming"></a>
+## Download & Install <a name="intro"> </a>
+To download VS Code just go to https://code.visualstudio.com/ and click download stable build for windows. Click install and follow the prompts. You as well can just mimic what I do in this gif.
 
-<details>
-<summary>Object-Oriented Programming VS. Functional Programming</summary>
-	
-**_I will briefly explain the programming paradigms[^1] I follow_**.
-	
-**_I will not be explaining the differences between these two models that I use, but I will link resources for you to read as both paradigms are not something that can be summarized and still make sense._**
-	
-I typically follow an [Object-Oriented Programming](https://en.wikipedia.org/wiki/Object-oriented_programming) methodology. Meaning a majority of the time my code uses reusable objects. This method is generally used for full-scale projects.
-	
-Whereas with [Functional Programming](https://en.wikipedia.org/wiki/Functional_programming) it is a polar opposite, code is not reusable- nor is the data used in functional programming muatble. I will use functional programming for quick turn-around demos, or small projects with tight deadlines.
-	
-> _There is no right or wrong paradigm to follow. I will create a table below that lists some of the pros/cons between the two. Commonly used in this field of programming._
->
-<details>
-	<summary> OOP vs FP Pros & Cons </summary>
-	
-| Object-Oriented Programming | Pros | Cons |  Functional Programming | Pros | Cons |
-| --- | --- | --- |  --- | --- | --- |
-| Allows Parallel Developement | :heavy_check_mark: | :x: |  Logical | :heavy_check_mark: | :x: |
-| Modular Classes which are reusable | :heavy_check_mark: | :x: |  Debugging is easier | :heavy_check_mark: | :x: |
-| Coding base is easier to maintain and document | :heavy_check_mark: | :x: | Lazy evaluation | :heavy_check_mark: | :x: |
-| It can be inefficient | :x: | :heavy_check_mark: | Combining pure functions | :x: | :heavy_check_mark: |
-| It can be too scalable[^2] | :x: | :heavy_check_mark: | Recursion[^3] | :x: | :heavy_check_mark: |
-| It can cause duplication | :x: | :heavy_check_mark: | Mathematical terminology | :x: | :heavy_check_mark: |
-	
-</details>
-	
-</details>
+<p align="center"><img src="../assets/gifs/VSCode-Install.gif" style="width: 50vw"></p>
 
+## Setup & Basic Extensions <a name="setup"></a>
+Once installed there is not really anything else you need to do, you could start working right away.
 
-[^1]: I only reference two Paradigms for programming. There are several and there are 4 major programming paradigms that are usually followed. So far in my career in web you mostly see functional and OOP which is why I only mention these two.
-[^2]: Because OOP is so modular it can very quickly become overbloated for whats needed.
-[^3]: Recursion is a form of iteration that gets used when you don't have access to using anykind of loop, it is harder concept to understand which is why it is a con.
+You could look for themes that you like, I recommend finding a theme and font you prefer to look at that helps you read the code. I highly recommend using a mono-spaced font. I use [Fira Code](https://github.com/tonsky/FiraCode).
 
----
+Here is a gif of how to set your font as fira code after install it.
 
-## Technologies <a name="Technologies"></a>
-
-###### Lists of technologies I use. This includes frameworks, APIs, and libraries, as well as programs.
-
-
-### Tools
-1. [Git SCM (Source Code Management)](#gitscm)
-2. [Terminal (Windows 10 Command Line Application)](#terminal)
-3. [ESLint](https://eslint.org)
-4. [Webpack (Module bundler)](https://webpack.js.org/)
-5. [NPM (Node Package Manager)](https://www.npmjs.com/)
-
-### Programs
-1. [Visual Studio Code (Text Editor)](https://code.visualstudio.com/)
-2. [Articulate Storyline (eLearning Authoring Tool)](#storyline)
-
-### Frameworks, APIs, Libraries
-1. [NodeJS (A Javascript Runtime Environment)](https://nodejs.org/en/)
-2. [ZimJS (Canvas Framework)](https://zimjs.com/)
-
----
-
-## Resources <a name="Resources"></a>
-
-###### List of resources I find valuable that I have used in my process of learning.
-
-### <u>[JavaScript](https://www.javascript.com/)</u>
-
-#### Coding Train
-<details>
-<summary>More Information</summary>
-
-Coding Train is a website built by Programmer and Professor [Daniel Shiffman](https://GitHub.com/Shiffman)
-	
-He teaches several different subjects related to programming. But his [youtube](https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw) channel offers some incredible tutorials ranging from absolute beginner-level introductions to building out functional projects.
-
-</details> 
-
-### <u>[Articulate Storyline](https://articulate.com/360)<a name="storyline" ></a></u>
-
-#### Devlin Peck
-<details>
-<summary>More Information</summary>
-
-Devlin Peck is a popular Articulate Storyline developer, he has a [website](https://www.devlinpeck.com/tutorials) with several useful tutorials.
-
-</details>
-
-#### E-Learning Heroes
-<details>
-<summary>More Information</summary>
-
-E-Learning Heroes is the community built around Articulate Storyline. There are always good forums of people asking for help with valuable answers being provided. There is also a weekly [Storyline challenge](https://community.articulate.com/hubs/e-learning-challenges) where a challenge is posted and the community will post there submissions, its a great way to see new ways one how someone would do something.
-
-</details>
-
-#### ELearning Designer
-<details>
-<summary>More Information</summary>
-
-[E-Learning Designer](https://elearningdesigner.com/) is another Storyline Developer who uploads templates, their completed E-Learning Hero Challenges and a few other things.
-
-</details>
-
-### <u>[Git SCM](https://git-scm.com/)<a name="gitscm"></a></u>
-
-<details>
-<summary>More Information</summary>
-
-Git SCM is a command-line Source Code Management tool. I will go into more detail in the [GitHub README](./GitHub/GitHub-README.md) file. But I will list resources here I found useful for learning Git SCM.
-
-1. [Git SCM Documentation](https://git-scm.com/docs)
-2. [Official Git Tutorial](https://git-scm.com/docs/gittutorial)
-3. [Everyday Git](https://git-scm.com/docs/giteveryday)
-4. [Git Immersion](https://gitimmersion.com/)
-5. [Backlog Git Tutorial](https://backlog.com/git-tutorial/)
-</details>
+<p align="center"><img src="../assets/gifs/SetFiraCode.gif" style="width: 100vw"></p>

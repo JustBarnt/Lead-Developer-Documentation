@@ -1,4 +1,4 @@
-<p align="center"><img src="./images/ddinc-logo-white.svg" style="width: 33vw"></p>
+<p align="center"><img src="./assets/ddinc-logo-white.svg" style="width: 33vw"></p>
 
 # JavaScript
 
