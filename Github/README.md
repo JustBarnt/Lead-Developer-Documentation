@@ -8,8 +8,6 @@
 	
 # Table of Contents
 	
-**Table of Contents includes the separate pages, GitHub, JavaScript, Storyline, and VSCode. But will also contain items in this document as well.**
-	
 1. [Download](#download)
 2. [Install](#install)
 3. [Terminals](#terminals)

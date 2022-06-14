@@ -1,4 +1,4 @@
-<p align="center"><img src="./assets/ddinc-logo-white.svg" style="width: 33vw"></p>
+<p align="center"><img src="../assets/ddinc-logo-white.svg" style="width: 33vw"></p>
 
 # Storyline
 
@@ -7,8 +7,6 @@
 ----
 
 # Table of Contents
-
-###### Table of Contents includes the separate pages, GitHub, JavaScript, Storyline, and VSCode. But will also contain items in this document as well.
 
 1. [Articulate Storyline Resources](#storyline)
 2. [Workflow](#workflow)
@@ -65,11 +63,17 @@ Here are the steps to do so.
 2. Next you will create a trigger that executes JavaScript.
 	-	You will then use the code below to obtain reference to the item and then animate it with GSAP a JavaScript animation library that Storyline uses as well.
 ```JavaScript
-const player = GetPlayer(); // Reference to the Storyline player, used to get or set a storyline variable.
-const SL_VAR = player.GetVar('NAME OF VARIABLE'); // This will get the name of the variable. IT IS CASE SENSITIVE so I recommend you copy it from the variables panel.
-player.SetVar('NAME OF VARIABLE', value); //This sets a SL variable to a value you specify. Storyline now will auto depict the variable type you are setting and if it translatable it will translate it to the correct type. Ex: SL_VARIABLE is string but you pass a number of 120- That can be translated into a string. 
+// Reference to the Storyline player, used to get or set a storyline variable.
+const player = GetPlayer(); 
 
-const itemToAnimate = document.querySelector("[data-acc-text='Object-0']"); //querySelector is a JavaScript method that looks for an HTML Node with the value you passed as a parameter. In this case we are looking for the property data-acc-text which is a value that is set when the accessibility text is filled. So we now have access to the item we wanted.
+ // This will get the name of the variable. IT IS CASE SENSITIVE so I recommend you copy it from the variables panel.
+const SL_VAR = player.GetVar('NAME OF VARIABLE');
+
+//This sets a SL variable to a value you specify. Storyline now will auto depict the variable type you are setting and if it translatable it will translate it to the correct type. Ex: SL_VARIABLE is string but you pass a number of 120- That can be translated into a string. 
+player.SetVar('NAME OF VARIABLE', value); 
+
+//querySelector is a JavaScript method that looks for an HTML Node with the value you passed as a parameter. In this case we are looking for the property data-acc-text which is a value that is set when the accessibility text is filled. So we now have access to the item we wanted.
+const itemToAnimate = document.querySelector("[data-acc-text='Object-0']"); 
 
 //Next just animate the item using the variable you used for storing reference. You can visit GSAP's documentation to get a better understanding of what all you can do. 
 gsap.to(itemToAnimate, {duration: 0.5, scaleX: 0.5, scaleY: 0.5, opacity: 1});
