@@ -25,6 +25,7 @@
           "after": true
         }
       ],
+      "no-constant-condition": 1,
       "brace-style": [
         "error",
         "allman",
@@ -54,7 +55,10 @@
       "handle-callback-err": "off",
       "indent": [
         "warn",
-        "tab"
+        4,
+		{
+			"SwitchCase": 1
+		}
       ],
       "max-nested-callbacks": [
         "error",
@@ -72,7 +76,7 @@
       "no-empty-function": "error",
       "no-floating-decimal": "error",
       "no-shadow": [
-        "error",
+        "warn",
         {
           "allow": [
             "err",
@@ -81,6 +85,7 @@
           ]
         }
       ],
+      "no-redeclare": 1,
       "no-unused-vars": 0,
       "no-var": "warn",
       "no-lonely-if": "off",
@@ -136,6 +141,7 @@
     "clean-webpack-plugin": "^4.0.0",
     "cross-env": "^7.0.3",
     "dotenv": "^16.0.1",
+    "gsap": "^3.10.4",
     "jsdom": "^19.0.0"
   }
 }
