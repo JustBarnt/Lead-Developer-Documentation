@@ -37,6 +37,6 @@ function StartApplication()
     //3. Loops to create squares and animate them.
 
     //4. Using JSON to manipulate the squares/circles position(s),colors, and label.
-
+    
     stage.update();
 }
