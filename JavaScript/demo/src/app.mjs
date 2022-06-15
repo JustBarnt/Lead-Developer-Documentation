@@ -1,42 +1,22 @@
-//Imports
-import gsap from 'gsap';
-const zim = window.zim;
+//Library imports
+//Only way to import libraries that don't offer NPM packages. Load it as a script in the index page and create a variable equal to the window instance.
+const createjs = window.createjs; 
+import { gsap } from 'gsap';
 
-//Theme
-const colors = { purple:'#471448', orange:'#F8993B', gray:'#504e4e' };
-
-//Zim Frame Creation
-const frame = new Frame(FILL, 1280, 720, colors.purple);
-
-let stage, stageW, stageH;
-
-TIME = 'milliseconds';
-frame.on('ready', () => 
+/**
+* @description Creates the stage and sets the ticker.
+* @author Brent Williams <brent.williams@ddincmail.org> (https://www.github.com/DDincBrent)
+* @function StageLoad
+*/
+function StageLoad()
 {
-    stage = frame.stage;
-    stageW = frame.width;
-    stageH = frame.height;
+    //Application Start
+    const stage = new createjs.Stage('myCanvas');
 
-    stage.update();
+    createjs.Ticker.addEventListener('tick', handleTick);
+}
 
-    StartApplication();
-});
-
-//Application Development after frame is ready and setup.
-function StartApplication()
+function handleTick(event)
 {
-
-    //Code Here
-
-    //Start with classes- Because I don't like how ZimJS creates objects. No OOP enough for me.
-
-    //1. Classes to customize squares/circles.
-
-    //2. Conditionals to show either shows circles or squares.
-	
-    //3. Loops to create squares and animate them.
-
-    //4. Using JSON to manipulate the squares/circles position(s),colors, and label.
-    
     stage.update();
 }
