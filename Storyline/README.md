@@ -46,7 +46,7 @@ E-Learning Heroes is the community built around Articulate Storyline. There are 
 	- UI Creation (CC, Menus, Feedback Masters)
 	- Variable Creation - CC, Menu, Next/Back, Play/Pause, Replay, Slide Completion, Slide title, Module title, etc.
 	- Trigger creation - Show/Hide: CC, Menu, Resources etc. Setting current slide, highest slide, max slide, progress. Slide movement, slide completion when slide has been viewed, setting slide title to scene.slidetitle.
-2. Import all assets for the module into the Asset Previewer. 
+2. Import all assets for the module into the Media library. 
 3. Create blank slides for each StoryBoard slide and name them accordingly.
 4. Fill all CC text for each slide.
 5. Add all assets to the slides.

@@ -7,8 +7,8 @@
 		"visualstudioexptteam.vscodeintellicode",
 		"jabacchetta.javascript-snippets",
 		"christian-kohler.path-intellisense",
-		"wallabyjs.quokka-vscode",
 		"itsrennyman.snippets-photo-shoot",
-		"shd101wyy.markdown-preview-enhanced"
+		"shd101wyy.markdown-preview-enhanced",
+        "WallabyJs.quokka-vscode"
 	]
 }

@@ -3,6 +3,10 @@
 const createjs = window.createjs; 
 import { gsap } from 'gsap';
 
+document.body.onload = StageLoad();
+
+let stage;
+
 /**
 * @description Creates the stage and sets the ticker.
 * @author Brent Williams <brent.williams@ddincmail.org> (https://www.github.com/DDincBrent)
@@ -11,12 +15,11 @@ import { gsap } from 'gsap';
 function StageLoad()
 {
     //Application Start
-    const stage = new createjs.Stage('myCanvas');
-
+    stage = new createjs.Stage('myCanvas');
     createjs.Ticker.addEventListener('tick', handleTick);
-}
 
-function handleTick(event)
-{
-    stage.update();
+    function handleTick(event)
+    {
+        stage.update();
+    }
 }
