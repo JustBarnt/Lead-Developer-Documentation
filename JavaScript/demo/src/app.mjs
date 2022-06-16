@@ -3,9 +3,11 @@
 const createjs = window.createjs; 
 import { gsap } from 'gsap';
 
-document.body.onload = StageLoad();
-
 let stage;
+const maxItems = 10;
+let color = '#fff000';
+
+document.body.onload = StageLoad();
 
 /**
 * @description Creates the stage and sets the ticker.
@@ -21,5 +23,22 @@ function StageLoad()
     function handleTick(event)
     {
         stage.update();
+    }
+
+    Start();
+}
+
+function Start()
+{
+    for(let i = 0; i <= maxItems; i++)
+    {
+        let sizeDiff = 10*i;
+        let offset = 20*i;
+        const graphic = new createjs.Graphics().beginFill(color).drawRect(0, 0, (25+sizeDiff), (25+sizeDiff));
+        const shape = new createjs.Shape(graphic);
+
+        gsap.to(shape, { duration: 0.5, x: offset, y: offset, ease: 'Back.easeInOut(1.2)' });
+
+        stage.addChild(shape);
     }
 }

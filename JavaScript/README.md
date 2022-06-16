@@ -98,13 +98,14 @@ if (true)
 	let greeting = 'say Hello instead';
 }
 console.log(greeting);// say Hi
-	```
+```
+
 As you can see, with var the entire variable was re-declared, in an acutal program that could create serious issues that could take a while and many hours of debugging to figure depending how big the program is.
 	
 But with the `let` example you see that the re-declare isn't logged because it is scoped inside the `if` block, and if there wasn't an if block there, it would create a syntax error because `let` variables cannot be re-declared.
 	
 #### Const
-	A constant variable or `const` is a variable that holds a constant value, giving it the name. A `const` cannot be updated or re-declared. This makes `const` useful for variables that will never change their data type.
+A constant variable or `const` is a variable that holds a constant value, giving it the name. A `const` cannot be updated or re-declared. This makes `const` useful for variables that will never change their data type.
 	
 Most often I use `const` for arrays and objects, because its always going to stay and array or object, but the data inside will change.
 	
