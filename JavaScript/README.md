@@ -79,7 +79,9 @@ This is use full for minor tasks where variables are being used for the same thi
 #### Let
 	
 let is now preferred declaration for variables because it is more useful and you can declare variables without worry of overwriting an existing one.
+
 > If you open the variable-declarations.js file you can use quokka to see the real-time output of these examples.
+
 ```JavaScript
 //VAR DECLARATION
 	
@@ -104,7 +106,7 @@ As you can see, with var the entire variable was re-declared, in an acutal progr
 But with the `let` example you see that the re-declare isn't logged because it is scoped inside the `if` block, and if there wasn't an if block there, it would create a syntax error because `let` variables cannot be re-declared.
 	
 #### Const
-	A constant variable or `const` is a variable that holds a constant value, giving it the name. A `const` cannot be updated or re-declared. This makes `const` useful for variables that will never change their data type.
+A constant variable or `const` is a variable that holds a constant value, giving it the name. A `const` cannot be updated or re-declared. This makes `const` useful for variables that will never change their data type.
 	
 Most often I use `const` for arrays and objects, because its always going to stay and array or object, but the data inside will change.
 	
@@ -146,7 +148,7 @@ if(condition)
 else
 {
 	//execute code
-}
+}s
 
 
 //If/Else If/Else
