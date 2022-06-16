@@ -239,4 +239,4 @@ There is a plethora of additional topics with git, but I highly suggest looking 
 <!-- End Additional Details Section -->
 
 <!-- Image references -->
-[GitClone]: ../images/GitHubCloneRepository.png
+[GitClone]: ../assets/GitHubCloneRepository.png

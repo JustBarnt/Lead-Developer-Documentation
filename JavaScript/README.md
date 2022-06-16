@@ -79,7 +79,9 @@ This is use full for minor tasks where variables are being used for the same thi
 #### Let
 	
 let is now preferred declaration for variables because it is more useful and you can declare variables without worry of overwriting an existing one.
+
 > If you open the variable-declarations.js file you can use quokka to see the real-time output of these examples.
+
 ```JavaScript
 //VAR DECLARATION
 	
@@ -131,7 +133,6 @@ let empty; 							   // Undefined
 let fn = function(){return 'hello'};   // Function
 let Person = {name: 'brent', age: 28}; // Object
 let ages = [19,20,34,29,30] 		   // Array
-
 ```
 
 ### Conditionals
