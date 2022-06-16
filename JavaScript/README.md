@@ -100,7 +100,8 @@ if (true)
 	let greeting = 'say Hello instead';
 }
 console.log(greeting);// say Hi
-	```
+```
+
 As you can see, with var the entire variable was re-declared, in an acutal program that could create serious issues that could take a while and many hours of debugging to figure depending how big the program is.
 	
 But with the `let` example you see that the re-declare isn't logged because it is scoped inside the `if` block, and if there wasn't an if block there, it would create a syntax error because `let` variables cannot be re-declared.
@@ -132,7 +133,6 @@ let empty; 							   // Undefined
 let fn = function(){return 'hello'};   // Function
 let Person = {name: 'brent', age: 28}; // Object
 let ages = [19,20,34,29,30] 		   // Array
-
 ```
 
 ### Conditionals
@@ -148,7 +148,7 @@ if(condition)
 else
 {
 	//execute code
-}s
+}
 
 
 //If/Else If/Else
