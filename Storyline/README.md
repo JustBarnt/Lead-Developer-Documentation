@@ -30,6 +30,12 @@ Devlin Peck is a popular Articulate Storyline developer, he has a [website](http
 
 E-Learning Heroes is the community built around Articulate Storyline. There are always good forums of people asking for help with valuable answers being provided. There is also a weekly [Storyline challenge](https://community.articulate.com/hubs/e-learning-challenges) where a challenge is posted and the community will post there submissions, its a great way to see new ways one how someone would do something.
 
+Some people to look for in the challenges
+1. Jodi M. Sansone
+2. Jackie Van Nice
+3. Ron Katz
+4. Joanne Chen
+
 </details>
 
 #### ELearning Designer
